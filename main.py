@@ -25,6 +25,7 @@ if uploaded_file is not None:
     st.write(filtered_df)
 
     st.subheader("Plot Data")
+    
     x_column = st.selectbox("Select x-axis column",columns)
     y_column = st.selectbox("Select y-axis column",columns)
 
